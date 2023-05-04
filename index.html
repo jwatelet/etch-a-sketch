@@ -11,33 +11,35 @@
 </head>
 
 <body>
-  <h1>Etch a Sketch</h1>
 
-  <div class="buttons">
-    <button id="reset">Reset</button>
-    <input type="range" name="squareSize" id="squareSize" min="16" max="100" value="16">
-    <div>
-      <span id="rangeValue"> </span>
-    </div>
-    <fieldset>
-      <legend>Select a mode:</legend>
+
+  <div class="game">
+    <h1>Etch a Sketch</h1>
+    <div class="buttons">
+      <button id="reset">Reset</button>
+      <input type="range" name="squareSize" id="squareSize" min="16" max="100" value="16">
       <div>
-        <input type="radio" id="regular" name="colorSelector" value="regular" checked>
-        <label for="huey">Regular</label>
+        <span id="rangeValue"> </span>
       </div>
+      <fieldset>
+        <legend>Select a mode:</legend>
+        <div>
+          <input type="radio" id="regular" name="colorSelector" value="regular" checked>
+          <label for="huey">Regular</label>
+        </div>
 
-      <div>
-        <input type="radio" id="color" name="colorSelector" value="color">
-        <label for="color">Color</label>
+        <div>
+          <input type="radio" id="color" name="colorSelector" value="color">
+          <label for="color">Color</label>
+        </div>
+
+      </fieldset>
+    </div>
+    <div class="plasticBorder">
+      <div class="screen">
       </div>
-
-    </fieldset>
-  </div>
-  <div class="plasticBorder">
-    <div class="screen">
     </div>
   </div>
-
 
   <div class="footer">
     © Flake The Mongoose 2023
