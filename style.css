@@ -37,8 +37,8 @@ button {
   align-self: center;
   background-color: #E0412B;
   border-radius: 15px;
-  width: 600px;
-  height: 600px;
+  width: 55vh;
+  height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,8 +47,8 @@ button {
 
 .screen {
   display: flex;
-  width: 500px;
-  height: 500px;
+  width: 50vh;
+  height: 50vh;
   justify-content: stretch;
   align-items: stretch;
   flex-direction: column;
