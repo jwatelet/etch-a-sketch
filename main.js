@@ -14,6 +14,7 @@ document.getElementById("rangeValue").textContent = `${squareValue}x${squareValu
 function resetSquareColoration() {
   document.querySelectorAll(".square").forEach((element) => {
     element.classList.remove("colored");
+    element.style.backgroundColor = "#D3D3D3";
   });
 }
 
@@ -33,7 +34,7 @@ function drawSquare(container, squareValue) {
   document.querySelectorAll(".square").forEach((element) => {
     element.addEventListener("mouseover", (_) => {
       element.classList.add("colored")
-
+      element.style.backgroundColor = "#000000"
       if (isColor()) {
         element.style.backgroundColor = getRandomColorHex();
       }
